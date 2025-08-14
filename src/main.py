@@ -15,7 +15,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 MODE = os.getenv("MODE","paper")    # 'paper' or 'live'
 API_KEY = os.getenv("BINANCE_API_KEY")
 API_SECRET = os.getenv("BINANCE_API_SECRET")
-TG_TOKEN = os.getenv("TG_BOT_TOKEN")
+TG_TOKEN = os.getenv("7786434709:AAE29u264oOFf9qH0oBSmjfTKQLSlUu_TUo")
 TG_ADMIN_ID = int(os.getenv("TG_ADMIN_ID","0"))
 SYMBOLS = os.getenv("SYMBOLS","BTCUSDT").split(",")
 DEFAULT_LEV = int(os.getenv("DEFAULT_LEVERAGE","10"))
